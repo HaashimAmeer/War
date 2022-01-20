@@ -21,8 +21,9 @@ function drawCards() {
           `Card #${i + 1}: ${data.cards[i].value} of ${data.cards[i].suit}`
         );
         document.getElementById(
-          "cards"
-        ).innerHTML += `<img src = "${data.cards[i].images.png}"> </img>`;
+          "images"
+        ).innerHTML += `<img src = "${data.cards[i].images.png}"> </img>
+        `;
       }
       console.log(data);
     });
