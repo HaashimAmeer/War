@@ -10,7 +10,7 @@ function handleClick() {
     });
 }
 
-// document.getElementById("new-deck").addEventListener("click", handleClick);
+document.getElementById("new-deck").addEventListener("click", handleClick);
 
 function drawCards() {
   fetch(`https://apis.scrimba.com/deckofcards/api/deck/${deckID}/draw/?count=2`)
